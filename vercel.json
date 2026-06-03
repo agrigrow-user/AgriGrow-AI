@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{desktop_app.py,gui.py,crops_recommendation.py,build_exe.ps1,Images/**,app.log,prediction_history.csv,*.md,__pycache__/**,.venv/**,dist/**,build/**}"
+    }
+  }
+}
